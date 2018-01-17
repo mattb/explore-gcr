@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    html = "<h3>Rolling</h3>"
+    html = "<h3>Latest</h3>"
     return html
 
 if __name__ == "__main__":
