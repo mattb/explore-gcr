@@ -1,0 +1,1 @@
+gcloud container builds log --stream $(gcloud container builds list --format json | jq -r .[0].id)
